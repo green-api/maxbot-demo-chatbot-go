@@ -1,0 +1,59 @@
+select_language: "1 - English \n2 - Русский"
+specify_language: "Please choose a language for further conversation\n1 - English \n2 - Русский"
+please_use_text: "Please enter a text message for further conversation with bot\n"
+welcome_message:
+  ru: "Добро пожаловать в GREEN-API MAX чат-бот, "
+  en: "Welcome to the GREEN-API MAX chatbot, "
+stop_message:
+  ru: "Спасибо за использование чат-бота GREEN-API MAX, "
+  en: "Thank you for using the GREEN-API MAX chatbot, "
+menu:
+  ru: "\n\nGREEN-API предоставляет отправку данных следующих видов. \nВыберите цифру или нажмите кнопку!\n\n1. Текст 📩\n2. Файл 📋\n3. Картинка 🖼\n4. Аудио 🎵\n5. Видео 📽\n6. Контакт 📱\n7. Геолокация 🌎\n8. О боте 🦎\n\nЧтобы вернуться в начало, напишите *стоп* или *0*"
+  en: "\n\nGREEN-API provides sending the following types of data. \nSelect a number or press a button!\n\n1. Text 📩\n2. File 📋\n3. Image 🖼\n4. Audio 🎵\n5. Video 📽\n6. Contact 📱\n7. Geolocation 🌎\n8. About 🦎\n\nTo restart, type *stop* or *0*"
+about_go_chatbot:
+  ru: "**GOLANG GREEN-API MAX чат-бот** предназначен для демонстрации возможностей MAX API.\n\nКод открыт, на его основе Вы легко сможете написать своего бота."
+  en: "**GOLANG GREEN-API MAX chatbot** is designed to demonstrate the capabilities of the MAX API.\n\nThe code is open source, and you can easily write your own bot on its basis."
+send_text_message:
+  ru: "Это сообщение отправлено через метод **SendMessage**.\n\n**Документация**: \n\n"
+  en: "This message is sent via **SendMessage** method.\n\n**Documentation**: \n\n"
+send_file_message:
+  ru: "Этот файл отправлен методом **UploadFile**.\nФайл содержит фотографию корги в расширении pdf!\n\n**Документация**: \n\n"
+  en: "This file is sent via **UploadFile** method.\nThe file is image of corgi in the pdf extension!\n\n**Documentation**: \n\n"
+send_image_message:
+  ru: "Это фото отправлено методом **UploadFile**. Корги поднимет вам настроение! 🥳\n\n**Документация**: \n\n"
+  en: "This image is sent via **UploadFile** method. Hope a little corgi will lighten your mood! 🥳\n\n**Documentation**: \n\n"
+send_audio_message:
+  ru: "Это аудио отправлено методом **UploadFile**.\n\n**Документация**: \n\n"
+  en: "This audio is sent using the **UploadFile** method.\n\n**Documentation**: \n\n"
+send_video_message:
+  ru: "Это видео отправлено методом **UploadFile**.\n\n**Документация**: \n\n"
+  en: "This video is sent via **UploadFile** method.\n\n**Documentation**: \n\n"
+send_contact_message:
+  ru: "Следующий контакт будет отправлен методом **SendMessage**.\n\n**Документация**: \n\n"
+  en: "The following contact to be sent via **SendMessage** method.\n\n**Documentation**: \n\n"
+send_location_message:
+  ru: "Следующая геолокация будет отправлена методом **SendMessage**.\nЭто координаты острова Мальта!\n\n**Документация**: \n\n"
+  en: "The following location to be sent via **SendMessage** method.\nThese are the coordinates of Malta island!\n\n**Documentation**: \n\n"
+not_recognized_message:
+  ru: "Извините, я не совсем вас понял 😔, напишите меню, чтобы посмотреть возможные опции"
+  en: "Sorry, I cannot understand what you are talking about 😔, type in menu to see the available options"
+links:
+  send_text_documentation: "https://green-api.com/max-bot-api/docs/api/messages/SendMessage/"
+  send_file_documentation: "https://green-api.com/max-bot-api/docs/api/upload/UploadFile/"
+  send_contact_documentation: "https://green-api.com/max-bot-api/docs/api/messages/SendMessage/"
+  send_location_documentation: "https://green-api.com/max-bot-api/docs/api/messages/SendMessage/"
+  maxbot_api_client_go_documentation: "https://github.com/green-api/maxbot-api-client-go/blob/master/README.md"
+  greenapi_website: "https://green-api.com/max"
+  max_documentation: "https://dev.max.ru/docs-api"
+link_to_source_code:
+  ru: "\n\n🗒️ Исходный код чатбота на GitHub:\nhttps://github.com/green-api/maxbot-demo-chatbot-go"
+  en: "\n\n🗒️ Source code of the chatbot on GitHub:\nhttps://github.com/green-api/maxbot-demo-chatbot-go"
+link_to_max:
+  ru: "\n\n📚 Документация MAX API:\nhttps://dev.max.ru/docs-api"
+  en: "\n\n📚 MAX API Documentation:\nhttps://dev.max.ru/docs-api"
+link_to_docs:
+  ru: "\n\n📚 Документация MAX:Bot от Green-API:\nhttps://green-api.com/max-bot-api/docs/"
+  en: "\n\n📚 MAX:Bot Green-API Documentation:\nhttps://green-api.com/max-bot-api/docs/"
+bot_name:
+  ru: "GREEN-API: MAX чат-бот"
+  en: "GREEN-API: MAX chat-bot"
