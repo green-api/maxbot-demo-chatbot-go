@@ -81,7 +81,7 @@ go run main.go
 		)
 ```
 
-Замените URL `"https://storage.yandexcloud.net/sw-prod-03-test/ChatBot/corgi.pdf"` на прямую ссылку на ваш файл. Аналогичным образом вы можете заменить ссылки на изображения (`corgi.jpg`), аудио (`Audio_bot.mp3`) и видео (`Video_bot_ru.mp4`) в соответствующих блоках `case`.
+Замените URL `"https://storage.yandexcloud.net/sw-prod-03-test/ChatBot/corgi.pdf"` на прямую ссылку вашего файла. Аналогичным образом вы можете заменить ссылки на изображения (`corgi.jpg`), аудио (`Audio_bot.mp3`) и видео (`Video_bot_ru.mp4`) в соответствующих блоках `case`.
 
 Все изменения должны быть сохранены, после чего нужно перезапустить чат-бот.
 
