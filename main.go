@@ -31,10 +31,10 @@ func main() {
 	}
 
 	appBot, err := bot.NewBot(client.Config{
-		BaseURL:   os.Getenv("BASE_URL"),
-		Token:     os.Getenv("TOKEN"),
-		GlobalRPS: 25,
-		Timeout:   35 * time.Second,
+		BaseURL:     os.Getenv("BASE_URL"),
+		Token:       os.Getenv("TOKEN"),
+		RateLimiter: 25,
+		Timeout:     35 * time.Second,
 	})
 
 	if err != nil {
